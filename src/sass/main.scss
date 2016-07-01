@@ -1,0 +1,15 @@
+@charset 'utf-8';
+
+@import 'partials/base';
+@import 'partials/reset';
+
+@import 'partials/regions/html/*';
+@import 'partials/regions/page/*';
+@import 'partials/regions/header/*';
+@import 'partials/regions/footer/*';
+@import 'partials/regions/navigation/*';
+@import 'partials/regions/content/*';
+
+@import 'partials/pages/front/*';
+
+@import 'partials/components/*';

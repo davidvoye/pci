@@ -1,0 +1,31 @@
+.news {
+
+clear: both;
+
+margin: 5px;
+padding: 15px;
+$zen-column-count: 2;
+$zen-gutter-width: 0px;
+@include zen-grid-item(1,1);
+background-image: url("../images/box3-leftbox.png");
+height: 270px;
+max-width: 510px;
+color: white;
+
+
+
+
+
+h2 {
+
+color: white;
+width: 70%;
+margin-left: 80px;
+}
+
+p
+{
+	width: 70%;
+	margin-left: 80px;
+}
+} 

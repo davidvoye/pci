@@ -1,0 +1,144 @@
+/* line 1, ../src/sass/partials/components/_news.scss */
+.news {
+  clear: both;
+  margin: 5px;
+  padding: 15px;
+  float: left;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: -50%;
+  background-image: url("../images/box3-leftbox.png");
+  height: 270px;
+  max-width: 510px;
+  color: white;
+}
+/* line 19, ../src/sass/partials/components/_news.scss */
+.news h2 {
+  color: white;
+  width: 70%;
+  margin-left: 80px;
+}
+/* line 27, ../src/sass/partials/components/_news.scss */
+.news p {
+  width: 70%;
+  margin-left: 80px;
+}
+
+/* line 1, ../src/sass/partials/components/_palliative-care-intro-2.scss */
+.palliative-care-intro-2 {
+  color: white;
+  margin: 5px;
+  padding: 15px;
+  float: left;
+  width: 50%;
+  margin-left: 50%;
+  margin-right: -100%;
+  background-image: url("../images/2ndRow-right-background.png");
+  height: 270px;
+  max-width: 490px;
+}
+/* line 14, ../src/sass/partials/components/_palliative-care-intro-2.scss */
+.palliative-care-intro-2 h2 {
+  color: white;
+  width: 70%;
+  margin-left: 80px;
+}
+/* line 22, ../src/sass/partials/components/_palliative-care-intro-2.scss */
+.palliative-care-intro-2 p {
+  width: 70%;
+  margin-left: 80px;
+}
+
+/* line 7, ../src/sass/partials/components/_palliative-care-intro.scss */
+.palliative-care-intro {
+  clear: both;
+  margin: 5px;
+  padding: 15px;
+  float: left;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: -50%;
+  background-image: url("../images/2ndRow-left-background.png");
+  height: 270px;
+  max-width: 510px;
+}
+
+/* line 1, ../src/sass/partials/components/_student.scss */
+.student {
+  margin: 5px;
+  padding: 15px;
+  float: left;
+  width: 50%;
+  margin-left: 50%;
+  margin-right: -100%;
+  background-image: url("../images/box3-rightbox.png");
+  height: 270px;
+  max-width: 490px;
+}
+/* line 13, ../src/sass/partials/components/_student.scss */
+.student p img {
+  float: left;
+}
+/* line 20, ../src/sass/partials/components/_student.scss */
+.student h2 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+/* line 29, ../src/sass/partials/components/_student.scss */
+.student p {
+  color: #003f87;
+  margin-left: 30px;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+
+/* line 1, ../src/sass/partials/components/_what-is-pci-2.scss */
+.what-is-pci-2 {
+  margin: 5px;
+  padding: 15px;
+  float: left;
+  width: 50%;
+  margin-left: 50%;
+  margin-right: -100%;
+  background-image: url("../images/box1-right.png");
+  height: 270px;
+  max-width: 490px;
+}
+/* line 17, ../src/sass/partials/components/_what-is-pci-2.scss */
+.what-is-pci-2 h2 {
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+/* line 23, ../src/sass/partials/components/_what-is-pci-2.scss */
+.what-is-pci-2 p {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 1, ../src/sass/partials/components/_what-is-pci.scss */
+.what-is-pci {
+  margin: 5px;
+  padding: 15px;
+  float: left;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: -50%;
+  background-image: url("../images/box1-left.png");
+  height: 270px;
+  max-width: 510px;
+  color: white;
+}
+/* line 15, ../src/sass/partials/components/_what-is-pci.scss */
+.what-is-pci h2 {
+  color: white;
+  width: 70%;
+  margin-left: 80px;
+}
+/* line 25, ../src/sass/partials/components/_what-is-pci.scss */
+.what-is-pci p {
+  width: 70%;
+  margin-left: 80px;
+}

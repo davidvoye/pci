@@ -1,0 +1,37 @@
+
+
+
+
+
+
+.palliative-care-intro {
+
+clear: both;
+margin:5px;
+padding: 15px;
+$zen-column-count: 2;
+$zen-gutter-width: 0px;
+@include zen-grid-item(1,1);
+background-image: url("../images/2ndRow-left-background.png");
+height: 270px;
+max-width: 510px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+}

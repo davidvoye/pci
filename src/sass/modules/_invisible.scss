@@ -1,0 +1,12 @@
+%invisible-element {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  height: 1px;
+
+  &:active,
+  &:focus {
+    position: static !important;
+    clip: auto;
+  }
+}

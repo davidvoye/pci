@@ -1,0 +1,46 @@
+.student {
+	
+
+margin:5px;
+padding: 15px;
+$zen-column-count: 2;
+$zen-gutter-width: 0px;
+@include zen-grid-item(1,2);
+background-image: url("../images/box3-rightbox.png");
+height: 270px;
+max-width: 490px;
+
+p img {
+float: left;
+
+	
+
+}
+
+h2 {
+text-align: center;
+margin-bottom: 0px;
+
+	
+
+
+}
+
+ p{
+
+
+ color: $wwu-blue;
+ margin-left: 30px;
+ padding: 15px;
+margin-bottom: 0px;
+
+
+
+	
+}
+
+
+
+
+
+}
