@@ -1,0 +1,44 @@
+################################################################################
+#
+# FILE EXCLUSIONS
+#
+################################################################################
+
+# Sass cache files
+*.scssc
+
+# CSS files
+*.css
+
+# Minified JavaScript
+*.min.js
+
+# Mac OS filesystem
+.DS_Store
+
+# Generated logo and screenshot images
+/logo.png
+/screenshot.png
+
+################################################################################
+#
+# DIRECTORY EXCLUSIONS
+#
+################################################################################
+
+# Sass cache
+.sass-cache
+
+# Eclipse project settings
+.buildpath
+.project
+.settings
+
+# node-js modules
+/node_modules
+
+# ruby gems
+/vendor/gem
+
+# Generated images
+/images

@@ -19,13 +19,26 @@ color: white;
 h2 {
 
 color: white;
-width: 70%;
-margin-left: 80px;
+width: 90%;
+margin: 20px 20px 10px 20px;
+margin-top: 15px;
 }
 
 p
 {
-	width: 70%;
-	margin-left: 80px;
+width: 90%;
+margin-left: 20px;
+margin-bottom: 0px;
 }
+a{
+color: white;
+text-decoration: none;
+}
+a:hover {
+color: #003f87;
+}
+ul {
+margin-top:20px;
+}
+
 } 
