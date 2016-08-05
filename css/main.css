@@ -1,14 +1,14 @@
 /* line 1, ../src/sass/partials/regions/page/_layout.scss */
 body {
-  background-image: url(../images/grass-background.png);
+  background-image: url(../src/images/grass-background.png);
+  background-repeat: no-repeat;
+  background-color: #e5d7ce;
 }
 
 /* line 1, ../src/sass/partials/regions/header/_layout.scss */
 .site-header .site-name {
-  background-color: none;
   background-image: url("../images/site-name.png");
   max-width: 300px;
-  repeat: no-repeat;
 }
 
 /* line 2, ../src/sass/partials/regions/footer/_layout.scss */
@@ -33,8 +33,9 @@ body {
   paddint-top: 15px;
   height: 91px;
   background-image: url(../images/site-logo-full-width.png);
+  repeat: no-repeat;
 }
-/* line 7, ../src/sass/partials/components/_heading.scss */
+/* line 8, ../src/sass/partials/components/_heading.scss */
 .heading h2 {
   color: white;
   margin-left: 120px;
@@ -42,7 +43,7 @@ body {
   margin-bottom: 10px;
   padding-top: 15px;
 }
-/* line 15, ../src/sass/partials/components/_heading.scss */
+/* line 16, ../src/sass/partials/components/_heading.scss */
 .heading p {
   color: white;
   margin-left: 120px;
@@ -158,6 +159,12 @@ body {
   margin-left: 0px;
   padding: 0px 15px;
   margin-bottom: 0px;
+}
+
+/* line 1, ../src/sass/partials/components/_views-row.scss */
+.views-row {
+  border-bottom: 1px solid #0083d6;
+  margin-bottom: 20px;
 }
 
 /* line 1, ../src/sass/partials/components/_what-is-pci-2.scss */
