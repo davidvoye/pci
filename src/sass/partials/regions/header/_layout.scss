@@ -1,12 +1,9 @@
  .site-header .site-name {
-background-image: url("../images/site-name.png");
-max-width: 300px;
-
-
-
-
-
-
-
+padding: 0px;
+width: 367px;
+max-width: 367px;
+height: 91px;
+@include replace-text("../images/site-name.png");
+background-color: none;
 
 }

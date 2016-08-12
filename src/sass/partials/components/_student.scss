@@ -1,27 +1,19 @@
 .student {
-
-margin:5px;
-padding: 15px;
+margin-top: 2.5px;
 $zen-column-count: 2;
 $zen-gutter-width: 0px;
 @include zen-grid-item(1,2);
-background-image: url("../images/box3-rightbox.png");
-height: 270px;
-max-width: 490px;
-
-p img {
-float: left;
-padding: 5px;
-}
+background-image: url("../src/images/box3-rightbox.png");
+height: 342px;
+max-width: 528px;
+margin-left: 530.5px;
 h2 {
-margin-top: 15px;
-margin-bottom: 10px;
-margin-left: 223px;
+color: white; 
+margin-left: 310px;
 }
  p{
- color: $wwu-blue;
- margin-left: 0px;
- padding:  0px 15px;
-margin-bottom: 0px;	
+color: white;
+margin-left: 311px;
+padding-right: 5px;
 }
 }
