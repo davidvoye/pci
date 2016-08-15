@@ -4,12 +4,15 @@ h2 {
 	color: white;
 	}
 
-hr {
-		color: #5f2663;
-		margin: 0px 0px 15px 0px;
-		width: 85%;
-	}	
 p a {
 	color:#0083d6;
 }
+
+p a:hover {
+	color:white;
+}
+}
+
+.footer-left {
+width: 33%;
 }

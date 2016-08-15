@@ -2,13 +2,27 @@
 body {
   background-image: url(../src/images/grass-background.png);
   background-repeat: no-repeat;
-  background-color: #e5d7ce;
+}
+
+/* line 6, ../src/sass/partials/regions/page/_layout.scss */
+.site-name {
+  width: 367px;
+  height: 91px;
 }
 
 /* line 1, ../src/sass/partials/regions/header/_layout.scss */
 .site-header .site-name {
-  background-image: url("../images/site-name.png");
-  max-width: 300px;
+  padding: 0px;
+  width: 367px;
+  max-width: 367px;
+  height: 91px;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('../images/../images/site-name.png?1471036121');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: none;
 }
 
 /* line 2, ../src/sass/partials/regions/footer/_layout.scss */
@@ -17,23 +31,26 @@ body {
   color: white;
 }
 /* line 7, ../src/sass/partials/regions/footer/_layout.scss */
-.footer-center .block hr {
-  color: #5f2663;
-  margin: 0px 0px 15px 0px;
-  width: 85%;
-}
-/* line 12, ../src/sass/partials/regions/footer/_layout.scss */
 .footer-center .block p a {
   color: #0083d6;
+}
+/* line 11, ../src/sass/partials/regions/footer/_layout.scss */
+.footer-center .block p a:hover {
+  color: white;
+}
+
+/* line 16, ../src/sass/partials/regions/footer/_layout.scss */
+.footer-left {
+  width: 33%;
 }
 
 /* line 1, ../src/sass/partials/components/_heading.scss */
 .heading {
-  margin: 5px 0px;
-  paddint-top: 15px;
-  height: 91px;
-  background-image: url(../images/site-logo-full-width.png);
+  margin-bottom: 2.5px;
+  background-image: url(../src/images/site-logo-full-width.png);
   repeat: no-repeat;
+  width: 1059px;
+  height: 104px;
 }
 /* line 8, ../src/sass/partials/components/_heading.scss */
 .heading h2 {
@@ -52,113 +69,113 @@ body {
 /* line 1, ../src/sass/partials/components/_news.scss */
 .news {
   clear: both;
-  margin: 5px;
-  padding: 15px;
+  margin-top: 2.5px;
   float: left;
   width: 50%;
   margin-left: 0%;
   margin-right: -50%;
-  background-image: url("../images/box3-leftbox.png");
-  height: 270px;
-  max-width: 510px;
+  background-image: url("../src/images/box3-leftbox.png");
+  height: 342px;
+  max-width: 528px;
   color: white;
 }
-/* line 19, ../src/sass/partials/components/_news.scss */
+/* line 12, ../src/sass/partials/components/_news.scss */
+.news ul {
+  padding: 0px 60px 0px 45px;
+  list-style-type: square;
+}
+/* line 16, ../src/sass/partials/components/_news.scss */
+.news li {
+  padding-bottom: 20px;
+}
+/* line 20, ../src/sass/partials/components/_news.scss */
 .news h2 {
   color: white;
-  width: 90%;
-  margin: 20px 20px 10px 20px;
-  margin-top: 15px;
+  margin-left: 30px;
+  text-transform: uppercase;
 }
-/* line 28, ../src/sass/partials/components/_news.scss */
-.news p {
-  width: 90%;
-  margin-left: 20px;
-  margin-bottom: 0px;
-}
-/* line 33, ../src/sass/partials/components/_news.scss */
+/* line 26, ../src/sass/partials/components/_news.scss */
 .news a {
   color: white;
   text-decoration: none;
 }
-/* line 37, ../src/sass/partials/components/_news.scss */
+/* line 30, ../src/sass/partials/components/_news.scss */
 .news a:hover {
   color: #003f87;
-}
-/* line 40, ../src/sass/partials/components/_news.scss */
-.news ul {
-  margin-top: 20px;
 }
 
 /* line 1, ../src/sass/partials/components/_palliative-care-intro-2.scss */
 .palliative-care-intro-2 {
   color: white;
-  margin: 5px;
-  padding: 15px;
   float: left;
   width: 50%;
   margin-left: 50%;
   margin-right: -100%;
-  background-image: url("../images/2ndRow-right-background.png");
-  height: 270px;
-  max-width: 490px;
+  background-image: url("../src/images/2ndRow-right-background.png");
+  background-repeat: no-repeat;
+  height: 342px;
+  max-width: 528px;
 }
-/* line 14, ../src/sass/partials/components/_palliative-care-intro-2.scss */
+/* line 12, ../src/sass/partials/components/_palliative-care-intro-2.scss */
 .palliative-care-intro-2 h2 {
   color: white;
   width: 95%;
   margin-top: 45px;
   margin-bottom: 10px;
 }
-/* line 22, ../src/sass/partials/components/_palliative-care-intro-2.scss */
+/* line 20, ../src/sass/partials/components/_palliative-care-intro-2.scss */
 .palliative-care-intro-2 p {
   width: 95%;
   margin-right: 15px;
 }
 
-/* line 7, ../src/sass/partials/components/_palliative-care-intro.scss */
+/* line 2, ../src/sass/partials/components/_palliative-care-intro.scss */
 .palliative-care-intro {
+  padding-top: 40px;
   clear: both;
-  margin: 5px;
-  padding: 15px;
   float: left;
   width: 50%;
   margin-left: 0%;
   margin-right: -50%;
-  background-image: url("../images/2ndRow-left-background.png");
-  height: 270px;
-  max-width: 510px;
+  background-image: url("../src/images/2ndRow-left-background.png");
+  background-repeat: no-repeat;
+  height: 302px;
+  max-width: 528px;
+}
+/* line 13, ../src/sass/partials/components/_palliative-care-intro.scss */
+.palliative-care-intro p {
+  color: white;
+  padding: 0px 30px;
+}
+/* line 18, ../src/sass/partials/components/_palliative-care-intro.scss */
+.palliative-care-intro h2 {
+  color: white;
+  margin-left: 30px;
+  text-transform: uppercase;
 }
 
 /* line 1, ../src/sass/partials/components/_student.scss */
 .student {
-  margin: 5px;
-  padding: 15px;
+  margin-top: 2.5px;
   float: left;
   width: 50%;
   margin-left: 50%;
   margin-right: -100%;
-  background-image: url("../images/box3-rightbox.png");
-  height: 270px;
-  max-width: 490px;
+  background-image: url("../src/images/box3-rightbox.png");
+  height: 342px;
+  max-width: 528px;
+  margin-left: 530.5px;
 }
-/* line 12, ../src/sass/partials/components/_student.scss */
-.student p img {
-  float: left;
-  padding: 5px;
-}
-/* line 16, ../src/sass/partials/components/_student.scss */
+/* line 10, ../src/sass/partials/components/_student.scss */
 .student h2 {
-  margin-top: 15px;
-  margin-bottom: 10px;
-  margin-left: 223px;
+  color: white;
+  margin-left: 310px;
 }
-/* line 21, ../src/sass/partials/components/_student.scss */
+/* line 14, ../src/sass/partials/components/_student.scss */
 .student p {
-  color: #003f87;
-  margin-left: 0px;
-  padding: 0px 15px;
-  margin-bottom: 0px;
+  color: white;
+  margin-left: 311px;
+  padding-right: 5px;
 }
 
 /* line 1, ../src/sass/partials/components/_views-row.scss */
@@ -169,22 +186,22 @@ body {
 
 /* line 1, ../src/sass/partials/components/_what-is-pci-2.scss */
 .what-is-pci-2 {
-  margin: 5px;
-  padding: 15px;
   float: left;
   width: 50%;
   margin-left: 50%;
   margin-right: -100%;
-  background-image: url("../images/box1-right.png");
-  height: 270px;
-  max-width: 490px;
+  background-image: url("../src/images/box1-right.png");
+  background-repeat: no-repeat;
+  height: 342px;
+  width: 528px;
+  margin-left: 530.5px;
 }
-/* line 17, ../src/sass/partials/components/_what-is-pci-2.scss */
+/* line 11, ../src/sass/partials/components/_what-is-pci-2.scss */
 .what-is-pci-2 h2 {
   margin-top: 15px;
   margin-bottom: 7px;
 }
-/* line 23, ../src/sass/partials/components/_what-is-pci-2.scss */
+/* line 16, ../src/sass/partials/components/_what-is-pci-2.scss */
 .what-is-pci-2 p {
   position: relative;
   top: 50%;
@@ -195,37 +212,34 @@ body {
 
 /* line 1, ../src/sass/partials/components/_what-is-pci.scss */
 .what-is-pci {
-  margin: 5px;
-  padding: 15px;
+  margin-bottom: 2.5px;
   float: left;
   width: 50%;
   margin-left: 0%;
   margin-right: -50%;
-  background-image: url("../images/box1-left.png");
-  height: 270px;
-  max-width: 510px;
+  background-image: url("../src/images/box1-left.png");
+  background-repeat: no-repeat;
+  height: 342px;
+  width: 528px;
   color: white;
 }
-/* line 15, ../src/sass/partials/components/_what-is-pci.scss */
+/* line 12, ../src/sass/partials/components/_what-is-pci.scss */
+.what-is-pci p {
+  color: white;
+  padding: 0px 30px;
+}
+/* line 17, ../src/sass/partials/components/_what-is-pci.scss */
 .what-is-pci h2 {
   color: white;
-  width: 95%;
-  margin-left: 20px;
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-left: 30px;
+  text-transform: uppercase;
 }
-/* line 24, ../src/sass/partials/components/_what-is-pci.scss */
-.what-is-pci p {
-  width: 95%;
-  margin-left: 20px;
-  padding-top: 20px;
-}
-/* line 31, ../src/sass/partials/components/_what-is-pci.scss */
+/* line 23, ../src/sass/partials/components/_what-is-pci.scss */
 .what-is-pci a {
   color: white;
   text-decoration: underline;
 }
-/* line 36, ../src/sass/partials/components/_what-is-pci.scss */
+/* line 28, ../src/sass/partials/components/_what-is-pci.scss */
 .what-is-pci a:hover {
   color: #003f87;
 }

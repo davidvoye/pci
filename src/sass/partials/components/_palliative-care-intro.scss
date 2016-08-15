@@ -1,37 +1,23 @@
 
-
-
-
-
-
 .palliative-care-intro {
-
+padding-top: 40px;
 clear: both;
-margin:5px;
-padding: 15px;
 $zen-column-count: 2;
 $zen-gutter-width: 0px;
 @include zen-grid-item(1,1);
-background-image: url("../images/2ndRow-left-background.png");
-height: 270px;
-max-width: 510px;
+background-image: url("../src/images/2ndRow-left-background.png");
+background-repeat: no-repeat;
+height: 302px;
+max-width: 528px;
 
+p{
+color:white;
+padding:0px 30px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
+h2{
+color: white;
+margin-left: 30px;	
+text-transform: uppercase;
+}
 }
