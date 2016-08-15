@@ -5,7 +5,7 @@ clear: both;
 $zen-column-count: 2;
 $zen-gutter-width: 0px;
 @include zen-grid-item(1,1);
-background-image: url("../src/images/2ndRow-left-background.png");
+background-image: url("../images/2ndRow-left-background.png");
 background-repeat: no-repeat;
 height: 302px;
 max-width: 528px;

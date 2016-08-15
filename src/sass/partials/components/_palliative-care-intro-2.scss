@@ -3,7 +3,7 @@ color: white;
 $zen-column-count: 2;
 $zen-gutter-width: 0px;
 @include zen-grid-item(1,2);
-background-image: url("../src/images/2ndRow-right-background.png");
+background-image: url("../images/2ndRow-right-background.png");
 background-repeat: no-repeat;
 height: 342px;
 max-width: 528px;
