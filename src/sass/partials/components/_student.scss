@@ -1,19 +1,40 @@
 .student {
-margin-top: 2.5px;
-$zen-column-count: 2;
-$zen-gutter-width: 0px;
-@include zen-grid-item(1,2);
-background-image: url("../images/box3-rightbox.png");
-height: 342px;
-max-width: 528px;
-margin-left: 530.5px;
-h2 {
-color: white; 
-margin-left: 310px;
+  $zen-column-count: 1;
+  @include zen-grid-item(1,1);
+  @include zen-clear(left);
+  height: auto;
+  max-width:50%;
+  h2 {
+    color: white;
+    margin-left: 30px;
+  }
+  p{
+    color: white;
+    margin-left: 30px;
+  }
 }
- p{
-color: white;
-margin-left: 311px;
-padding-right: 5px;
-}
+
+@media only screen and (max-width: $tablet){
+  .student{
+    $zen-column-count: 1;
+    @include zen-grid-item(1,1);
+    width: 100%;
+    height: auto;
+    background-color: #6f8981;
+    min-width: 320px;
+    max-width: $tablet;
+    @include zen-clear(left);
+  }
+
+  h2 {
+    margin-left: 30px;
+  }
+
+  p {
+    margin-left: 30px;
+    img {
+      margin-left: 30px;
+      margin-right: 5px;
+    }
+  }
 }
