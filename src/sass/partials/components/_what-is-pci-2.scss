@@ -1,20 +1,13 @@
-.what-is-pci-2 {
-$zen-column-count: 2;
-$zen-gutter-width: 0px;
-@include zen-grid-item(1,2);
-background-image: url("../images/box1-right.png");
-background-repeat: no-repeat;
-height: 342px;
-width: 528px;
-margin-left: 530.5px;
 
-h2 {
-margin-top: 15px;
-margin-bottom: 7px;	
-}
-
-p  {
-	@include vertical-align();
-}
-
+@media only screen and (max-width: $tablet){
+  .what-is-pci-2{
+    $zen-column-count: 1;
+    @include zen-grid-item(1,1);
+    @include zen-clear(left);
+    background-image: url(../images/box-1-right-mobile.jpg);
+    height: 352px;
+    clear: left;
+    margin-bottom: 0px;
+    background-size: cover;
+  }
 }

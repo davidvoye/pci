@@ -1,21 +1,46 @@
 .heading {
-margin-bottom: 2.5px;
-background-image: url(../images/site-logo-full-width.png);
-repeat: no-repeat;
-width: 1059px;
-height: 104px;
+	margin-bottom: 1px;
+	background-image: none;
+	repeat: no-repeat;
+	width: 1059px;
+	height: 104px;
 
-h2{
-color:white;
-margin-left: 120px;
-margin-top: 10px;
-margin-bottom:10px;
-padding-top:15px;
+	h2{
+		color: white;
+		margin-left: 30px;
+		display: inline-block;
+		margin-top: 10px;
+		margin-bottom:2px;
+		padding-top: 30px;
+		font-size: 35px;
+		letter-spacing: 5px;
+	}
+
+	h3 {
+		color: white;
+		margin: 0px 0px 0px 30px;
+		font-size: 15px;
+		letter-spacing: 35px;
+	}
+
+	p{
+		color:white;
+		width: 40%;
+		clear: both;
+		margin-top: -54px;
+		margin-left: 62%;
+		font-style: italic;
+		padding-right: 10px;
+	}
+
 }
 
-p{
-color:white;	
-margin-left: 120px;
-}
+@media only screen and (max-width: $tablet){
+	.heading {
+		background-color: #6f8981;
+		p {
+			display: none;
+		}
+	}
 
 }

@@ -1,0 +1,18 @@
+
+.panel-display {
+  background-image: url(../images/full-background-with-images.jpg);
+  background-repeat: no-repeat;
+
+}
+
+@media only screen and (max-width: 1048px){
+  .panel-display{
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: $desktop){
+  main {
+    padding: 0px;
+  }
+}

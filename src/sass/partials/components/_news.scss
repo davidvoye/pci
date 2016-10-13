@@ -1,33 +1,67 @@
 .news {
-clear: both;
-margin-top: 2.5px;
-$zen-column-count: 2;
-$zen-gutter-width: 0px;
-@include zen-grid-item(1,1);
-background-image: url("../images/box3-leftbox.png");
-height: 342px;
-max-width: 528px;
-color: white;
+	clear: both;
+	$zen-column-count: 2;
+	$zen-gutter-width: 0px;
+	@include zen-grid-item(1,1);
+	height: auto;
+	max-width: 50%;
+	color: white;
 
-ul{
-padding:0px 60px 0px 45px;
-list-style-type: square;
-}
-li{
-padding-bottom:20px;	
+	ul{
+		padding:0px 60px 0px 45px;
+		list-style-type: square;
+	}
+	li{
+		padding-bottom:20px;
+	}
+
+	h2{
+		color: white;
+		margin-left: 30px;
+	}
+
+	a{
+		color: white;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #003f87;
+	}
 }
 
-h2{
-color: white;
-margin-left: 30px;	
-text-transform: uppercase;
-}
 
-a{
-color: white;
-text-decoration: none;
+
+
+
+@media only screen and (max-width: $tablet){
+	.news {
+		$zen-column-count: 1;
+		width: 100%;
+		height: auto;
+		background-image: none;
+		background-color: #6f8981;
+		clear: both;
+		margin-bottom: 0px;
+		max-width: $tablet;
+		padding-top: 0px;
+		@include zen-clear(left);
+
+
+		p{
+			color: white;
+			padding-bottom: 30px;
+		}
+
+		h2{
+			color: white;
+			margin-left: 30px;
+			margin-top: 30px;
+		}
+
+		a {
+			color: white;
+			text-decoration: underline;
+		}
+
+	}
 }
-a:hover {
-color: #003f87;
-}
-} 

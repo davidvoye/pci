@@ -1,26 +1,34 @@
 .palliative-care-intro-2 {
-color: white;
-$zen-column-count: 2;
-$zen-gutter-width: 0px;
-@include zen-grid-item(1,2);
-background-image: url("../images/2ndRow-right-background.png");
-background-repeat: no-repeat;
-height: 342px;
-max-width: 528px;
+  color: white;
+  $zen-column-count: 2;
+  $zen-gutter-width: 0px;
+  @include zen-grid-item(1,2);
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
 
 
-h2 {
-color: white;
-width: 95%;
-margin-top: 45px;
-margin-bottom: 10px;
+  h2 {
+    color: white;
+    width: 95%;
+    margin-top: 45px;
+    margin-bottom: 10px;
 
+  }
+
+  p {
+    width: 95%;
+    margin-right: 15px;
+  }
 }
 
-p {
-width: 95%;
-margin-right: 15px;
-}
-
-	
+@media only screen and (max-width: $tablet){
+  .palliative-care-intro-2 {
+    $zen-column-count: 1;
+    @include zen-grid-item(1,1);
+    background-image: url('../images/box2-right-mobile.png');
+    @include zen-clear(left);
+    background-size: cover;
+    height: 352px;
+  }
 }

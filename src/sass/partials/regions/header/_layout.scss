@@ -1,9 +1,17 @@
- .site-header .site-name {
-padding: 0px;
-width: 367px;
-max-width: 367px;
-height: 91px;
-@include replace-text("../images/site-name.png");
-background-color: none;
+.site-header .site-name {
+  padding: 0px;
+  width: 367px;
+  max-width: 367px;
+  height: 91px;
+  @include replace-text("../images/site-name.png");
+  background-color: none;
+}
 
+@media only screen and (max-width: 800px){
+  .site-header .site-name{
+    max-width: 800px;
+    width: 800px;
+    background-image: url('../images/site-name-mobile.png');
+    background-position: 0% 0%;
+  }
 }
