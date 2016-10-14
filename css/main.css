@@ -1,7 +1,7 @@
 /* line 1, ../src/sass/partials/regions/page/_layout.scss */
 body {
-  background-image: url(../images/grass-background.png);
-  background-repeat: no-repeat;
+  background-image: url(../images/cork-background.png);
+  background-size: cover;
 }
 
 /* line 6, ../src/sass/partials/regions/page/_layout.scss */
