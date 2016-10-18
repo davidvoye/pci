@@ -4,7 +4,7 @@
   max-width: 367px;
   height: 91px;
   @include replace-text("../images/site-name.png");
-  background-color: none;
+  background-color: transparent;
 }
 
 @media only screen and (max-width: 800px){
