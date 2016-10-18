@@ -19,7 +19,7 @@ body {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/../images/site-name.png?1476477215');
+  background-image: url('../images/../images/site-name.png?1476478015');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-color: transparent;
@@ -55,7 +55,7 @@ body {
 
 /* line 2, ../src/sass/partials/pages/front/_layout.scss */
 .panel-display {
-  background-image: url(../images/full-background-with-images.jpg);
+  background-image: url(../images/full-background-with-images2.png);
   background-repeat: no-repeat;
 }
 
@@ -300,9 +300,14 @@ body {
   color: white;
   margin-left: 30px;
 }
+/* line 14, ../src/sass/partials/components/_student.scss */
+.student p img {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
 
 @media only screen and (max-width: 907px) {
-  /* line 18, ../src/sass/partials/components/_student.scss */
+  /* line 22, ../src/sass/partials/components/_student.scss */
   .student {
     float: left;
     width: 100%;
@@ -316,16 +321,16 @@ body {
     clear: left;
   }
 
-  /* line 29, ../src/sass/partials/components/_student.scss */
+  /* line 33, ../src/sass/partials/components/_student.scss */
   h2 {
     margin-left: 30px;
   }
 
-  /* line 33, ../src/sass/partials/components/_student.scss */
+  /* line 37, ../src/sass/partials/components/_student.scss */
   p {
     margin-left: 30px;
   }
-  /* line 35, ../src/sass/partials/components/_student.scss */
+  /* line 39, ../src/sass/partials/components/_student.scss */
   p img {
     margin-left: 30px;
     margin-right: 5px;
