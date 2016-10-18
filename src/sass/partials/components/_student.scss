@@ -3,7 +3,7 @@
   @include zen-grid-item(1,1);
   @include zen-clear(left);
   height: auto;
-  max-width:50%;
+  max-width:49%;
   h2 {
     color: white;
     margin-left: 30px;
@@ -24,7 +24,7 @@
     @include zen-grid-item(1,1);
     width: 100%;
     height: auto;
-    background-color: #6f8981;
+    background-color: #7B8B88;
     min-width: 320px;
     max-width: $tablet;
     @include zen-clear(left);
