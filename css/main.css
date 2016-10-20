@@ -1,3 +1,8 @@
+/* line 1, ../src/sass/partials/regions/page/_color.scss */
+a {
+  color: #7B8B88;
+}
+
 /* line 1, ../src/sass/partials/regions/page/_layout.scss */
 body {
   background-image: url(../images/cork-background.png);
@@ -8,6 +13,45 @@ body {
 .site-name {
   width: 367px;
   height: 91px;
+}
+
+/* line 11, ../src/sass/partials/regions/page/_layout.scss */
+.learn-more {
+  background-color: #7B8B88;
+  color: white;
+  padding: 8px;
+  margin: 8px 8px 8px 0px;
+  text-decoration: none;
+}
+
+/* line 20, ../src/sass/partials/regions/page/_layout.scss */
+.views-field-field-learn-more {
+  margin: 8px;
+}
+
+/* line 24, ../src/sass/partials/regions/page/_layout.scss */
+.views-row {
+  border-bottom: 1px solid #596E6E;
+}
+
+/* line 28, ../src/sass/partials/regions/page/_layout.scss */
+.learn-more:hover {
+  color: #596E6E;
+  background-color: #97A5A2;
+}
+
+/* line 33, ../src/sass/partials/regions/page/_layout.scss */
+.views-label-field-start-date {
+  display: none;
+}
+
+/* line 36, ../src/sass/partials/regions/page/_layout.scss */
+.views-field-title {
+  font-size: 20px;
+}
+/* line 38, ../src/sass/partials/regions/page/_layout.scss */
+.views-field-title a {
+  color: #596E6E;
 }
 
 /* line 1, ../src/sass/partials/regions/header/_layout.scss */
@@ -51,6 +95,22 @@ body {
 /* line 16, ../src/sass/partials/regions/footer/_layout.scss */
 .footer-left {
   width: 356px;
+}
+
+/* line 1, ../src/sass/partials/regions/navigation/_color.scss */
+.main-nav .menu li {
+  background-color: #646D6B;
+}
+
+/* line 5, ../src/sass/partials/regions/navigation/_color.scss */
+a.menu_link {
+  color: #646D6B;
+}
+
+/* line 9, ../src/sass/partials/regions/navigation/_color.scss */
+.block-accordion-menu .active {
+  background-color: #97A5A2;
+  color: white;
 }
 
 /* line 2, ../src/sass/partials/pages/front/_layout.scss */
@@ -111,7 +171,7 @@ body {
 @media only screen and (max-width: 907px) {
   /* line 39, ../src/sass/partials/components/_heading.scss */
   .heading {
-    background-color: #6f8981;
+    background-color: #7B8B88;
   }
   /* line 41, ../src/sass/partials/components/_heading.scss */
   .heading p {
