@@ -159,7 +159,7 @@ body {
     width: 100%;
     height: auto;
     background-image: none;
-    background-color: #6f8981;
+    background-color: #7B8B88;
     clear: both;
     margin-bottom: 0px;
     max-width: 907px;
@@ -257,7 +257,7 @@ body {
     width: 100%;
     height: auto;
     background-image: none;
-    background-color: #6f8981;
+    background-color: #7B8B88;
     clear: both;
     margin-bottom: 0px;
     max-width: 907px;
@@ -288,7 +288,7 @@ body {
   margin-right: -100%;
   clear: left;
   height: auto;
-  max-width: 50%;
+  max-width: 49%;
 }
 /* line 7, ../src/sass/partials/components/_student.scss */
 .student h2 {
@@ -315,7 +315,7 @@ body {
     margin-right: -100%;
     width: 100%;
     height: auto;
-    background-color: #6f8981;
+    background-color: #7B8B88;
     min-width: 320px;
     max-width: 907px;
     clear: left;
@@ -394,7 +394,7 @@ body {
     width: 100%;
     height: auto;
     background-image: none;
-    background-color: #6f8981;
+    background-color: #7B8B88;
     clear: both;
     margin-bottom: 0px;
   }
