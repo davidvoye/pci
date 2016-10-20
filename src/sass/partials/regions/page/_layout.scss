@@ -1,10 +1,41 @@
 body {
-background-image: url(../images/cork-background.png);
-background-size: cover;
+  background-image: url(../images/cork-background.png);
+  background-size: cover;
 }
 
 .site-name {
-width: 367px;
-height: 91px;
+  width: 367px;
+  height: 91px;
+}
 
+.learn-more {
+  background-color: #7B8B88;
+  color: white;
+  padding: 8px;
+  margin: 8px 8px 8px 0px;
+  text-decoration: none;
+
+}
+
+.views-field-field-learn-more {
+  margin:8px;
+}
+
+.views-row {
+  border-bottom: 1px solid #596E6E;
+}
+
+.learn-more:hover {
+  color: #596E6E;
+  background-color: #97A5A2;
+}
+
+.views-label-field-start-date {
+  display: none;
+}
+.views-field-title {
+  font-size: 20px;
+  a {
+    color: #596E6E;
+  }
 }
