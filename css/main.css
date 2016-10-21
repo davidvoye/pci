@@ -1,7 +1,7 @@
 /* line 1, ../src/sass/partials/regions/page/_layout.scss */
 body {
   background-image: url(../images/cork-background.png);
-  background-size: cover;
+  background-repeat: repeat;
 }
 
 /* line 6, ../src/sass/partials/regions/page/_layout.scss */
@@ -54,6 +54,11 @@ hr {
   border-bottom-width: .5px;
 }
 
+/* line 47, ../src/sass/partials/regions/page/_layout.scss */
+.file-icon {
+  display: none;
+}
+
 /* line 1, ../src/sass/partials/regions/header/_layout.scss */
 .site-header .site-name {
   padding: 0px;
@@ -63,7 +68,7 @@ hr {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../images/../images/site-name.png?1476478015');
+  background-image: url('../images/../images/site-name.png?1477082858');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-color: transparent;
@@ -134,7 +139,7 @@ a.menu_link {
 
 /* line 2, ../src/sass/partials/pages/front/_layout.scss */
 .panel-display {
-  background-image: url(../images/full-background-with-images2.png);
+  background-image: url(../images/full-background-with-images2-withflower.png);
   background-repeat: no-repeat;
 }
 
@@ -260,6 +265,15 @@ a.menu_link {
   .news a {
     color: white;
     text-decoration: underline;
+  }
+
+  /* line 68, ../src/sass/partials/components/_news.scss */
+  .news::after {
+    content: " ";
+    background-image: url("../images/woman.png");
+    background-size: cover;
+    min-height: 352px;
+    display: block;
   }
 }
 /* line 1, ../src/sass/partials/components/_palliative-care-intro-2.scss */

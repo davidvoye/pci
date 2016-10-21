@@ -1,0 +1,11 @@
+
+@media only screen and (max-width: $tablet){
+  .woman {
+    $zen-column-count: 1;
+    @include zen-grid-item(1,1);
+    background-image: url('../images/woman.png');
+    @include zen-clear(left);
+    background-size: cover;
+    height: 352px;
+  }
+}
