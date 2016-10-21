@@ -64,4 +64,12 @@
 		}
 
 	}
+
+	.news::after {
+		content: " ";
+	  background-image: url('../images/woman.png');
+		background-size: cover;
+		min-height: 352px;
+		display: block;
+	}
 }
