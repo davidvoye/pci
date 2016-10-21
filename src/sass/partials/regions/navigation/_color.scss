@@ -1,6 +1,5 @@
 .main-nav .menu li {
   background-color: #596E6E;
-  padding: 0px;
 }
 
 a.menu_link{
@@ -10,14 +9,21 @@ a.menu_link{
 .block-accordion-menu .active {
   background-color: #596E6E;
   color: white;
-}
-
-.active-trail {
-  color:white;
+  .active-trail {
+    color:white;
+  }
 }
 
 .main-nav .menu li:hover {
   a{
     color: #596E6E;
   }
+}
+
+.menu_item {
+  padding: 0px;
+}
+
+.main-nav div div .menu li {
+  padding: 0px;
 }
