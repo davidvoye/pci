@@ -8,7 +8,7 @@ body {
   height: 91px;
 }
 
-.learn-more {
+.learn-more, .register{
   background-color: #7B8B88;
   color: white;
   padding: 8px;
@@ -18,7 +18,7 @@ body {
 
 }
 
-.views-field-field-learn-more {
+.views-field-field-learn-more, .views-field-field-register {
   margin:8px;
 }
 
@@ -33,12 +33,6 @@ body {
 .views-label-field-start-date {
   display: none;
 }
-.views-field-title {
-  font-size: 20px;
-  a {
-    color: #596E6E;;
-  }
-}
 
 hr {
   border-bottom-width: .5px;
@@ -46,4 +40,7 @@ hr {
 
 .file-icon {
   display: none;
+}
+table {
+  border: none !important;
 }
