@@ -55,6 +55,11 @@ table {
   border: none !important;
 }
 
+/* line 47, ../src/sass/partials/regions/page/_layout.scss */
+.field-items {
+  margin: 15px 15px 15px 0px;
+}
+
 /* line 1, ../src/sass/partials/regions/header/_layout.scss */
 .site-header .site-name {
   padding: 0px;
