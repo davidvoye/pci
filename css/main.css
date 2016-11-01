@@ -118,7 +118,7 @@ table {
 
 /* line 28, ../src/sass/partials/regions/footer/_layout.scss */
 .footer2 {
-  margin: 0px 0px 0px 30px;
+  margin: 0px;
   font-size: 15px;
   letter-spacing: 35px;
   text-transform: uppercase;
@@ -154,9 +154,9 @@ a.menu_link {
   color: #596E6E;
 }
 
-/* line 23, ../src/sass/partials/regions/navigation/_color.scss */
-.main-nav div div .menu li {
-  padding: 0px;
+/* line 1, ../src/sass/partials/regions/navigation/_layout.scss */
+header[role="banner"] > div {
+  display: none;
 }
 
 /* line 2, ../src/sass/partials/pages/front/_layout.scss */
