@@ -17,18 +17,21 @@
   width: 450px;
 }
 
-.footer-left {
-  p.footer {
-    font-size: 35px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    margin: 30px 0px 0px 0px;
-  }
 
-  p.footer2 {
-    margin: 0px 0px 0px 30px;
-    font-size: 15px;
-    letter-spacing: 35px;
-    text-transform: uppercase;
-  }
+.footer {
+  font-size: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 30px 0px 0px 0px;
+}
+
+.footer2 {
+  margin: 0px 0px 0px 30px;
+  font-size: 15px;
+  letter-spacing: 35px;
+  text-transform: uppercase;
+}
+
+.footer-center {
+  display: none;
 }

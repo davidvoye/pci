@@ -60,6 +60,11 @@ table {
   margin: 15px 15px 15px 0px;
 }
 
+/* line 50, ../src/sass/partials/regions/page/_layout.scss */
+#gift:hover {
+  background-image: url(../images/gift-hover.png);
+}
+
 /* line 1, ../src/sass/partials/regions/header/_layout.scss */
 .site-header .site-name {
   padding: 0px;
@@ -104,18 +109,24 @@ table {
 }
 
 /* line 21, ../src/sass/partials/regions/footer/_layout.scss */
-.footer-left .footer {
+.footer {
   font-size: 35px;
   letter-spacing: 5px;
   text-transform: uppercase;
   margin: 30px 0px 0px 0px;
 }
+
 /* line 28, ../src/sass/partials/regions/footer/_layout.scss */
-.footer-left .footer2 {
+.footer2 {
   margin: 0px 0px 0px 30px;
   font-size: 15px;
   letter-spacing: 35px;
   text-transform: uppercase;
+}
+
+/* line 35, ../src/sass/partials/regions/footer/_layout.scss */
+.footer-center {
+  display: none;
 }
 
 /* line 1, ../src/sass/partials/regions/navigation/_color.scss */
@@ -144,11 +155,6 @@ a.menu_link {
 }
 
 /* line 23, ../src/sass/partials/regions/navigation/_color.scss */
-.menu_item {
-  padding: 0px;
-}
-
-/* line 27, ../src/sass/partials/regions/navigation/_color.scss */
 .main-nav div div .menu li {
   padding: 0px;
 }
@@ -176,10 +182,9 @@ a.menu_link {
   margin-bottom: 1px;
   background-image: none;
   repeat: no-repeat;
-  width: 1059px;
   height: 104px;
 }
-/* line 8, ../src/sass/partials/components/_heading.scss */
+/* line 7, ../src/sass/partials/components/_heading.scss */
 .heading h2 {
   color: white;
   margin-left: 30px;
@@ -190,30 +195,29 @@ a.menu_link {
   font-size: 35px;
   letter-spacing: 5px;
 }
-/* line 19, ../src/sass/partials/components/_heading.scss */
+/* line 18, ../src/sass/partials/components/_heading.scss */
 .heading h3 {
   color: white;
   margin: 0px 0px 0px 30px;
   font-size: 15px;
   letter-spacing: 35px;
 }
-/* line 26, ../src/sass/partials/components/_heading.scss */
+/* line 25, ../src/sass/partials/components/_heading.scss */
 .heading p {
   color: white;
-  width: 40%;
+  width: 35%;
   clear: both;
   margin-top: -54px;
-  margin-left: 62%;
-  font-style: italic;
+  margin-left: 65%;
   padding-right: 10px;
 }
 
 @media only screen and (max-width: 907px) {
-  /* line 39, ../src/sass/partials/components/_heading.scss */
+  /* line 36, ../src/sass/partials/components/_heading.scss */
   .heading {
     background-color: #7B8B88;
   }
-  /* line 41, ../src/sass/partials/components/_heading.scss */
+  /* line 38, ../src/sass/partials/components/_heading.scss */
   .heading p {
     display: none;
   }
@@ -292,32 +296,8 @@ a.menu_link {
     display: block;
   }
 }
-/* line 1, ../src/sass/partials/components/_palliative-care-intro-2.scss */
-.palliative-care-intro-2 {
-  color: white;
-  float: left;
-  width: 50%;
-  margin-left: 50%;
-  margin-right: -100%;
-  background-repeat: no-repeat;
-  height: auto;
-  width: 100%;
-}
-/* line 11, ../src/sass/partials/components/_palliative-care-intro-2.scss */
-.palliative-care-intro-2 h2 {
-  color: white;
-  width: 95%;
-  margin-top: 45px;
-  margin-bottom: 10px;
-}
-/* line 19, ../src/sass/partials/components/_palliative-care-intro-2.scss */
-.palliative-care-intro-2 p {
-  width: 95%;
-  margin-right: 15px;
-}
-
 @media only screen and (max-width: 907px) {
-  /* line 26, ../src/sass/partials/components/_palliative-care-intro-2.scss */
+  /* line 3, ../src/sass/partials/components/_palliative-care-intro-2.scss */
   .palliative-care-intro-2 {
     float: left;
     width: 100%;
