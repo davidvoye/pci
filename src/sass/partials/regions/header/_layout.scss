@@ -8,13 +8,9 @@
 }
 
 @media only screen and (max-width: $tablet){
-  .site-header .site-name{
+  .panel-display::before {
     width: 100%;
     height: auto;
     background-image: url('../images/texture-background.jpg');
-    background-position: 0% 0%;
-  }
-  .page-title {
-    display:none;
   }
 }
