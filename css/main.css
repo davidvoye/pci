@@ -80,13 +80,18 @@ table {
   background-color: transparent;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 907px) {
   /* line 11, ../src/sass/partials/regions/header/_layout.scss */
   .site-header .site-name {
-    max-width: 800px;
-    width: 800px;
-    background-image: url("../images/site-name-mobile.png");
+    width: 100%;
+    height: auto;
+    background-image: url("../images/texture-background.jpg");
     background-position: 0% 0%;
+  }
+
+  /* line 17, ../src/sass/partials/regions/header/_layout.scss */
+  .page-title {
+    display: none;
   }
 }
 /* line 2, ../src/sass/partials/regions/footer/_layout.scss */
@@ -105,7 +110,7 @@ table {
 
 /* line 16, ../src/sass/partials/regions/footer/_layout.scss */
 .footer-left {
-  width: 450px;
+  min-width: 320px;
 }
 
 /* line 21, ../src/sass/partials/regions/footer/_layout.scss */
@@ -125,10 +130,22 @@ table {
 }
 
 /* line 35, ../src/sass/partials/regions/footer/_layout.scss */
-.footer-center {
-  display: none;
+#footer-logo {
+  margin-left: -10px;
 }
 
+/* line 39, ../src/sass/partials/regions/footer/_layout.scss */
+.footer-center {
+  margin-left: 12.22%;
+}
+
+@media only screen and (max-width: 800px) {
+  /* line 44, ../src/sass/partials/regions/footer/_layout.scss */
+  .western-privacy-statement {
+    margin-left: 95%;
+    width: 100%;
+  }
+}
 /* line 1, ../src/sass/partials/regions/navigation/_color.scss */
 .main-nav .menu li {
   background-color: #596E6E;
@@ -156,7 +173,7 @@ a.menu_link {
 
 /* line 1, ../src/sass/partials/regions/navigation/_layout.scss */
 header[role="banner"] > div {
-  display: none;
+  max-height: none;
 }
 
 /* line 2, ../src/sass/partials/pages/front/_layout.scss */
@@ -193,14 +210,14 @@ header[role="banner"] > div {
   margin-bottom: 2px;
   padding-top: 30px;
   font-size: 35px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 /* line 18, ../src/sass/partials/components/_heading.scss */
 .heading h3 {
   color: white;
-  margin: 0px 0px 0px 30px;
+  margin: 0px 0px 0px 34px;
   font-size: 15px;
-  letter-spacing: 35px;
+  letter-spacing: 29px;
 }
 /* line 25, ../src/sass/partials/components/_heading.scss */
 .heading p {
@@ -428,7 +445,18 @@ header[role="banner"] > div {
 /* line 1, ../src/sass/partials/components/_views-row.scss */
 .views-row {
   border-bottom: 1px solid #0083d6;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+/* line 6, ../src/sass/partials/components/_views-row.scss */
+.views-field-title {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+/* line 10, ../src/sass/partials/components/_views-row.scss */
+.field-content {
+  margin: 15px 0px;
 }
 
 @media only screen and (max-width: 907px) {

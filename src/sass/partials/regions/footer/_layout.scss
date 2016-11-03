@@ -14,8 +14,7 @@
 }
 
 .footer-left {
-  width: 44%;
-  height: auto;
+  min-width: 320px;
 }
 
 
@@ -43,6 +42,7 @@
 
 @media only screen and (max-width: 800px){
   .western-privacy-statement {
-    margin-left: 80%;
+    margin-left: 95%;
+    width: 100%;
   }
 }

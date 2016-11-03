@@ -7,11 +7,14 @@
   background-color: transparent;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: $tablet){
   .site-header .site-name{
-    max-width: 800px;
-    width: 800px;
-    background-image: url('../images/site-name-mobile.png');
+    width: 100%;
+    height: auto;
+    background-image: url('../images/texture-background.jpg');
     background-position: 0% 0%;
+  }
+  .page-title {
+    display:none;
   }
 }
