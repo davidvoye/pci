@@ -7,10 +7,11 @@
   background-color: transparent;
 }
 
-@media only screen and (max-width: $tablet){
+@media only screen and (max-width: $mobile){
   .site-name {
     height: 142px;
     width: 100%;
-    max-width: none; 
+    max-width: none;
+    background-image: url("../images/texture-background.jpg");
   }
 }
