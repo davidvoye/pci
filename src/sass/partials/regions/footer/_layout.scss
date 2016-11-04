@@ -39,3 +39,9 @@
 .footer-center {
   margin-left: 12.22%;
 }
+
+@media only screen and (max-width: 800px){
+  .western-privacy-statement {
+    display: none;
+  }
+}
