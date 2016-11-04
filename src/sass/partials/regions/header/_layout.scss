@@ -1,4 +1,4 @@
-.site-name {
+.site-name .site-header {
   padding: 0px;
   width: 367px;
   max-width: 367px;
@@ -7,11 +7,14 @@
   background-color: transparent;
 }
 
-@media only screen and (max-width: $mobile){
+@media only screen and (max-width: 800px){
   .site-name {
     height: 142px;
     width: 100%;
     max-width: none;
     background-image: url("../images/texture-background.jpg");
+  }
+  .page-title {
+    display:none;
   }
 }
