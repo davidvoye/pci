@@ -41,6 +41,8 @@
     display: none;
   }
 }
+@media only screen and (max-width: $tablet){
 #footer-left {
   margin-left: 30px;
+}
 }
