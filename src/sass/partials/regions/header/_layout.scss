@@ -6,6 +6,9 @@
   @include replace-text("../images/site-name.png");
   background-color: transparent;
 }
+.site-header {
+  background-color: transparent;
+}
 
 @media only screen and (max-width: 800px){
   .site-name {
