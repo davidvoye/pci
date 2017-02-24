@@ -5,6 +5,9 @@
   background-color: rgb(124,140,137);  // Background Color
 
 }
+.page {
+  min-width: 370px;
+}
 
 @media only screen and (max-width: 1048px){
   .panel-display{
