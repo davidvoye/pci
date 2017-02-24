@@ -18,7 +18,7 @@
   }
 }
 
-@media only screen and (max-width: $tablet){
+@media only screen and (max-width: $tablet) {
   .student{
     $zen-column-count: 1;
     @include zen-grid-item(1,1);
@@ -40,5 +40,10 @@
       margin-left: 0px;
       margin-right: 20px;
     }
+  }
+}
+@media only screen and (max-width: $mobile-small) {
+  .student {
+    padding-bottom: 40px;
   }
 }
