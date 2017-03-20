@@ -1,22 +1,15 @@
-.site-name {
-  padding: 1.2em 0;
-  width: 367px;
-  max-width: 367px;
-  height: 91px;
-  @include replace-text("../images/site-name.png");
-  background-color: transparent;
-}
-.site-header .site-name {
-  background-color: transparent;
-}
-
-@media only screen and (max-width: 800px){
+.site-header {
   .site-name {
-    height: 0px;
+    height: 0;
+    background: url("../images/texture-background.jpg") transparent;
     width: 100%;
-    max-width: none;
-    background-image: url("../images/texture-background.jpg");
-    text-indent: 10px;
+    
+    @include breakpoint(800px) {
+      @include replace-text("../images/site-name.png");
+      padding: 0;
+      height: 91px;
+      max-width: 367px;
+    }
   }
-
 }
+
