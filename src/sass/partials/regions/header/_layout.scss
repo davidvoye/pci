@@ -1,5 +1,5 @@
 .site-name {
-  padding: 0px;
+  padding: 1.2em 0;
   width: 367px;
   max-width: 367px;
   height: 91px;
@@ -16,8 +16,7 @@
     width: 100%;
     max-width: none;
     background-image: url("../images/texture-background.jpg");
+    text-indent: 10px;
   }
-  .page-title {
-    display:none;
-  }
+
 }
