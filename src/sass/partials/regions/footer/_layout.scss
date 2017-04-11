@@ -40,9 +40,13 @@
   .footer-center {
     display: none;
   }
+  .footer-left p:first-child {
+    padding-left: 0;
+  }
 }
+
 @media only screen and (max-width: $tablet){
-#block-block-1 > p {
-  margin-left: 30px;
-}
+  .footer-left #block-block-1 > p {
+     margin-left: 30px;
+  }
 }
