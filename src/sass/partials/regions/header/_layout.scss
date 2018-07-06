@@ -1,12 +1,8 @@
 .site-header {
   .site-name {
     height: 0;
-    background: url("../images/texture-background.jpg") transparent;
     width: 100%;
-
     @include breakpoint(800px) {
-      @include replace-text("../images/site-name.png");
-      padding: 0;
       height: 91px;
       max-width: 367px;
     }
@@ -20,7 +16,4 @@ main .page-title {
 
 .site-header .site-name {
   box-sizing: border-box;
-  p span {
-    display: none;
-  }
 }
